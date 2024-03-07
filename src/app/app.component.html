@@ -1,3 +1,28 @@
+<section class="landingPage">
+    <div class="nevbarFix" [ngClass]="{'scrolled': isScrolled}">
+        <app-navitem></app-navitem>
+    </div>
 
-<app-navitem></app-navitem>
-<router-outlet></router-outlet>
+    <div class="Getconnect">
+        <div class="row" style="width: 100%;">
+            <div class="col-md-6">
+                <div class="Getconnect-text">
+                    <h1>Get connect to other. <br>
+                        Just ask Topapp</h1>
+                    <p>Access to opportunities for career advancement and <br>
+                        professional growth relies heavily on connections.</p>
+                    <form class="emailButton">
+                        <input class="form-control me-2" style="width: 50%;" type="text" placeholder="Your Email Here">
+                        <button class="btn btn-outline-success" type="submit">Take free trial</button>
+                    </form>
+                    <p>*We will give a trial download link to your mail address</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mokaupImg">
+                    <img src="../assets/image/mokaup.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
