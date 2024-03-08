@@ -103,7 +103,10 @@
     }
 }
 
-// featured-section
+// END
+
+
+// vCard Templates
 
 .btn-style-three{
     position: relative;
@@ -154,9 +157,6 @@ h2{
     z-index: 1;
 }
 
-// .list-style-one{
-//     margin-bottom: 40px;
-// }
 .blocks-column {
     position: relative;
     margin-bottom: 40px;
@@ -175,22 +175,11 @@ h2{
 .inner-box{
     position: relative;
     text-align: center;
-    padding: 50px 21px 35px;
+    padding: 20px;
     background-color: #fff;
     border-radius: 7px;
     box-shadow: 0 0 45px rgba(0,0,0,.2);
     margin-bottom: 20px;
-}
-.icon-box{
-    position: relative;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    border-radius: 50px;
-    background-color: #f54245;
-    display: inline-block;
-    text-align: center;
-    box-shadow: 0 15px 15px rgba(239,66,70,.3);
 }
 .text{
     position: relative;
@@ -200,7 +189,74 @@ h2{
     line-height: 1.8em;
     margin-top: 18px;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
-.icon{
-    height: 25px;
+
+
+.check-icon{
+    width:40px;
+    height: 40px;
+    border: 1px solid #ebedf1;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i{
+        color: #27c352;
+        font-size: 20px;
+    
+    }
 }
+.chekc-text{
+    margin-left: 15px;
+}
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+  }
+  
+  .image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    transition: transform 10s;
+  }
+  
+  .image-container:hover .image {
+    transform: translateY(-89%);
+  }
+
+  .cloud-icon {
+    width: 90px;
+    height: 90px;
+  }
+
+  .cloud-img {
+    width: 80%;
+    height: auto;
+    animation: zoomInOut 2s infinite alternate;
+  }
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+//   END
+
+
+
+// features-section
+
