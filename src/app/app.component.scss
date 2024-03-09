@@ -260,3 +260,21 @@ h2{
 
 // features-section
 
+.card {
+    // margin: 10px;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-left: 75px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+  }
+  
+  .card img {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+  }
+  .heading{
+      margin-bottom: 30px;
+  }
